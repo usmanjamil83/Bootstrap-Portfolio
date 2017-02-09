@@ -3,39 +3,77 @@
 }
 
 body {
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 18px;
   color: #777;
   line-height: 34px;
   background: url("../images/cork.png");
 }
 
+.container {
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.name {
+  font-family: 'Raleway', sans-serif;
+  margin-right: -100px;
+  width: 200px;
+}
+
+.name a {
+  padding-left: -10px;
+}
+
+.list {
+  padding: 0px 70px 0px 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
 .left {
-  margin-top: 20px;
   padding: 0 20px 20px 20px;
   background-color: white;
 }
 
-.right {
-  width: 205px;
+.about {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px bold;
+  margin-top: -30px;
+  padding-top: 10px;
 }
 
-.name {
-  width: 200px;
-  background-color: lightgreen;
-  padding: 0px 0px 0px 50px;
+.right {
+  width: 205px;
+  margin-right: 50px;
+}
+
+h3 {
+  font-size: 16px bold;
+}
+
+.bio {
+  font-family: 'Raleway', sans-serif;
+  padding: 0px 0px 0px 10px;
+  font-size: 17px;
+}
+
+.myimg {
+  float: left;
 }
 
 footer {
-  border-color: green;
+  position: static;
+  border-top: 5px solid green;
   height: 100px;
-  background-color: #af9a9a;
   width: 100%;
+  background-color: #666666;
+  margin-top: 3%;
 }
 
 .copyright {
   color: white;
   text-align: center;
+  margin-top: 5%;
 }
 
 
