@@ -61,13 +61,33 @@ h3 {
   float: left;
 }
 
+.work {
+  position: relative;
+  width: 274px;
+  overflow: auto;
+  float: left;
+  margin: 20px 0 25px;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  margin-bottom: 0;
+  padding: 15px;
+  width: 86%;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
 footer {
   position: static;
   border-top: 5px solid green;
   height: 100px;
   width: 100%;
   background-color: #666666;
-  margin-top: 3%;
+  margin-top: 7%;
 }
 
 .copyright {
@@ -76,170 +96,45 @@ footer {
   margin-top: 5%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 980px) {
-  .sidebar {
-    width: 270px;
-    margin-right: 100px;
+  .right {
+    width: 753px;
+    margin-left: -17px;
+    margin-top: 20px;
   }
-  .main-section {
-    margin-left: 100px;
-    width: 335px;
-    margin-top: 0px;
-    margin-bottom: 20px;
+
+  .list {
+    padding: 0px 0px 0px 0px;
   }
-  .auth-image {
-    width: 275px;
-  } 
-  #logo {
-    margin-left: 100px;
-  }
-  nav {
-    margin-right: 110px;
+
+  .myimg {
+    margin-right: 10px;
+    margin-top: 5px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .sidebar {
-    width: 650px;
-    margin-right: 43px;
+   .right {
+    width: 700px;
+    margin-left: 2px;
+    margin-top: 20px;
   }
-  .main-section {
-    width: 650px;
-    margin-left: 43px;
-    margin-bottom: 20px;
-  }
-  #logo {
-    margin-left: 50px;
-  }
-  nav {
-    margin-right: 50px;
+
+  .left {
+    width: 697px;
+    margin-left: 20px;
   }
 }
 
 @media screen and (max-width: 640px) {
-  .sidebar {
-    width: 580px;
-    margin-right: 14px;
+  .right {
+    width: 570px;
+    margin-left: 2px;
+    margin-top: 20px;
   }
-  .main-section {
-    width: 580px;
-    margin-left: 14px;
-    margin-top: 60px;
-    margin-bottom: 20px;
-  }
-  #logo {
-    margin: 0px;
-    width: 100%;
-  }
-  nav a {
-    padding-right: 50px;
-    padding-left: 50px;
-  }
-  .work img {
-    width: 100%;
+
+  .left {
+    width: 570px;
+    margin-left: 20px;
   }
 }
